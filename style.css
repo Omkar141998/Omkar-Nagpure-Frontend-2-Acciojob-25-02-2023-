@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dashboard {
+  background-color: black;
+  height: 55px;
+  padding: 25px;
+  color: white;
+}
+.butn button {
+  background-color: black;
+  margin: 25px 0px 0px 25px;
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+input {
+    height: 30px;
+    width: 150px;
+    padding: 10px;
+  }
+
+.heading-part td {
+  border: 1px solid black;
+  padding-left: 20px;
+}
+td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  padding: 20px;
+}
+table {
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 300px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+  }
+.tablebox {
+  margin: 20px;
+}
+.saveButton {
+  height: 30px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
